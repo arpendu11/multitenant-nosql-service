@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      uri: mongodb://spring:password@127.0.0.1:27017/master?authSource=admin&retryWrites=true&w=majority
+      database: master
+      host: 127.0.0.1
+      port: 27017
+      username: spring
+      password: password
